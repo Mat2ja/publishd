@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Publishd</title>
+    <meta name="author" content="Matija Osrečki">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;600&display=swap" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+
+    <div class="app">
+      <nav class="nav">
+        <div class="nav__search">
+          <i class="nav__icon icon" data-jam="search"></i>
+          <input type="text" class="nav__searchbar" placeholder="Search for book or an author...">
+        </div>
+        <div class="nav__logo">
+          <ion-icon name="layers" class="logo--img" size='large'></ion-icon>
+          Bookster
+        </div>
+        <div class="nav__profile">
+          <i class="nav__icon icon icon--cart" data-jam="shopping-cart"></i>
+          <div class="user">
+            <span class="user__name">Rafa Brutalo</span>
+            <img src="img/avatar.webp" alt="" class="user__avatar">
+          </div>
+
+        </div>
+      </nav>
+      <main class="main">
+        <section class="books">
+          <section class="recommended">
+            <h2 class="title">Recommended</h2>
+            <div class="book-grid">
+              <div class="recommended__book card">
+                <img src="img/books/18007564.jpg" alt="" class="book__cover">
+                <div class="book__details">
+                  <div class="book__desc">
+                    <h3 class="book__title">The Martian</h3>
+                    <h3 class="book__author">Andy Weir</h3>
+                  </div>
+                  <div class="book__rating">
+                    <div class="book__stars">
+                      <i class="book__icon icon icon--star" data-jam="star-f"></i>
+                      <i class="book__icon icon icon--star" data-jam="star-f"></i>
+                      <i class="book__icon icon icon--star" data-jam="star-f"></i>
+                      <i class="book__icon icon icon--star" data-jam="star-f"></i>
+                      <i class="book__icon icon icon--star" data-jam="star"></i>
+                    </div>
+                    <span class="book__rating-count">819</span>
+                  </div>
+                  <div class="book__pricing">
+                    <span class="book__price">$ 18.50</span>
+                    <i class="book__icon icon icon--add" data-jam="plus-rectangle-f"></i>
+                  </div>
+                </div>
+              </div>
+
+              <div class="recommended__book card">
+                <img src="img/books/34466963._SY475_.jpg" alt="" class="book__cover">
+                <div class="book__details">
+                  <div class="book__desc">
+                    <h3 class="book__title">Why We Sleep?</h3>
+                    <h3 class="book__author">Matthew Walker</h3>
+                  </div>
+                  <div class="book__rating">
+                    <div class="book__stars">
+                      <i class="book__icon icon icon--star" data-jam="star-f"></i>
+                      <i class="book__icon icon icon--star" data-jam="star-f"></i>
+                      <i class="book__icon icon icon--star" data-jam="star-f"></i>
+                      <i class="book__icon icon icon--star" data-jam="star-f"></i>
+                      <i class="book__icon icon icon--star" data-jam="star-f"></i>
+                    </div>
+                    <span class="book__rating-count">616</span>
+                  </div>
+                  <div class="book__pricing">
+                    <span class="book__price">$ 32.00</span>
+                    <i class="book__icon icon icon--add" data-jam="plus-rectangle-f"></i>
+                  </div>
+                </div>
+              </div>
+
+              <div class="recommended__book card">
+                <img src="img/books/44767458.jpg" alt="" class="book__cover">
+                <div class="book__details">
+                  <div class="book__desc">
+                    <h3 class="book__title">Dune</h3>
+                    <h3 class="book__author">Frank Herbert</h3>
+                  </div>
+                  <div class="book__rating">
+                    <div class="book__stars">
+                      <i class="book__icon icon icon--star" data-jam="star-f"></i>
+                      <i class="book__icon icon icon--star" data-jam="star-f"></i>
+                      <i class="book__icon icon icon--star" data-jam="star-f"></i>
+                      <i class="book__icon icon icon--star" data-jam="star-f"></i>
+                      <i class="book__icon icon icon--star" data-jam="star"></i>
+                    </div>
+                    <span class="book__rating-count">982</span>
+                  </div>
+                  <div class="book__pricing">
+                    <span class="book__price">$ 29.50</span>
+                    <i class="book__icon icon icon--add" data-jam="plus-rectangle-f"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="all">
+            <h2 class="title">All Books</h2>
+            <div class="book-grid">
+              <div class="all__book">
+                <img src="img/books/18189134.jpg" alt="" class="book__cover">
+                <div class="book__details">
+                  <div class="book__desc">
+                    <h3 class="book__title">Discourses</h3>
+                    <h3 class="book__author">Epictetus</h3>
+                  </div>
+                  <div class="book__rating">
+                    <div class="book__stars">
+                      <i class="book__icon icon icon--star" data-jam="star-f"></i>
+                      <i class="book__icon icon icon--star" data-jam="star-f"></i>
+                      <i class="book__icon icon icon--star" data-jam="star-f"></i>
+                      <i class="book__icon icon icon--star" data-jam="star-f"></i>
+                      <i class="book__icon icon icon--star" data-jam="star-f"></i>
+                    </div>
+                    <span class="book__rating-count">642</span>
+                  </div>
+                  <div class="book__pricing">
+                    <span class="book__price">$ 11.50</span>
+                    <i class="book__icon icon icon--add" data-jam="plus-rectangle-f"></i>
+                  </div>
+                </div>
+              </div>
+
+              <div class="all__book">
+                <img src="img/books/36739320._SY475_.jpg" alt="" class="book__cover">
+                <div class="book__details">
+                  <div class="book__desc">
+                    <h3 class="book__title">Because Internet</h3>
+                    <h3 class="book__author">Gretchen McCulloch</h3>
+                  </div>
+                  <div class="book__rating">
+                    <div class="book__stars">
+                      <i class="book__icon icon icon--star" data-jam="star-f"></i>
+                      <i class="book__icon icon icon--star" data-jam="star-f"></i>
+                      <i class="book__icon icon icon--star" data-jam="star-f"></i>
+                      <i class="book__icon icon icon--star" data-jam="star"></i>
+                      <i class="book__icon icon icon--star" data-jam="star"></i>
+                    </div>
+                    <span class="book__rating-count">156</span>
+                  </div>
+                  <div class="book__pricing">
+                    <span class="book__price">$ 28.00</span>
+                    <i class="book__icon icon icon--add" data-jam="plus-rectangle-f"></i>
+                  </div>
+                </div>
+              </div>
+
+              <div class="all__book">
+                <img src="img/books/12609433._SY475_.jpg" alt="" class="book__cover">
+                <div class="book__details">
+                  <div class="book__desc">
+                    <h3 class="book__title">The Power Of Habit</h3>
+                    <h3 class="book__author">Charles Duiggh</h3>
+
+                  </div>
+                  <div class="book__rating">
+                    <div class="book__stars">
+                      <i class="book__icon icon icon--star" data-jam="star-f"></i>
+                      <i class="book__icon icon icon--star" data-jam="star-f"></i>
+                      <i class="book__icon icon icon--star" data-jam="star-f"></i>
+                      <i class="book__icon icon icon--star" data-jam="star-f"></i>
+                      <i class="book__icon icon icon--star" data-jam="star"></i>
+                    </div>
+                    <span class="book__rating-count">261</span>
+                  </div>
+                  <div class="book__pricing">
+                    <span class="book__price">$ 12.00</span>
+                    <i class="book__icon icon icon--add" data-jam="plus-rectangle-f"></i>
+                  </div>
+                </div>
+              </div>
+
+              <div class="all__book">
+                <img src="img/books/40121378._SY475_.jpg" alt="" class="book__cover">
+                <div class="book__details">
+                  <div class="book__desc">
+                    <h3 class="book__title">Atomic Habits</h3>
+                    <h3 class="book__author">James Clear</h3>
+
+                  </div>
+                  <div class="book__rating">
+                    <div class="book__stars">
+                      <i class="book__icon icon icon--star" data-jam="star-f"></i>
+                      <i class="book__icon icon icon--star" data-jam="star-f"></i>
+                      <i class="book__icon icon icon--star" data-jam="star-f"></i>
+                      <i class="book__icon icon icon--star" data-jam="star-f"></i>
+                      <i class="book__icon icon icon--star" data-jam="star-f"></i>
+                    </div>
+                    <span class="book__rating-count">261</span>
+                  </div>
+                  <div class="book__pricing">
+                    <span class="book__price">$ 26.50</span>
+                    <i class="book__icon icon icon--add" data-jam="plus-rectangle-f"></i>
+                  </div>
+                </div>
+              </div>
+
+              <div class="all__book">
+                <img src="img/books/40405444.jpg" alt="" class="book__cover">
+                <div class="book__details">
+                  <div class="book__desc">
+                    <h3 class="book__title">Digital Minimalism</h3>
+                    <h3 class="book__author">Cal Newport</h3>
+
+                  </div>
+                  <div class="book__rating">
+                    <div class="book__stars">
+                      <i class="book__icon icon icon--star" data-jam="star-f"></i>
+                      <i class="book__icon icon icon--star" data-jam="star-f"></i>
+                      <i class="book__icon icon icon--star" data-jam="star-f"></i>
+                      <i class="book__icon icon icon--star" data-jam="star-f"></i>
+                      <i class="book__icon icon icon--star" data-jam="star"></i>
+                    </div>
+                    <span class="book__rating-count">380</span>
+                  </div>
+                  <div class="book__pricing">
+                    <span class="book__price">$ 20.00</span>
+                    <i class="book__icon icon icon--add" data-jam="plus-rectangle-f"></i>
+                  </div>
+                </div>
+              </div>
+
+              <div class="all__book">
+                <img src="img/books/41817481.jpg" alt="" class="book__cover">
+                <div class="book__details">
+                  <div class="book__desc">
+                    <h3 class="book__title">Under Land</h3>
+                    <h3 class="book__author">Robert MacFarlane</h3>
+                  </div>
+                  <div class="book__rating">
+                    <div class="book__stars">
+                      <i class="book__icon icon icon--star" data-jam="star-f"></i>
+                      <i class="book__icon icon icon--star" data-jam="star-f"></i>
+                      <i class="book__icon icon icon--star" data-jam="star-f"></i>
+                      <i class="book__icon icon icon--star" data-jam="star-f"></i>
+                      <i class="book__icon icon icon--star" data-jam="star"></i>
+                    </div>
+                    <span class="book__rating-count">127</span>
+                  </div>
+                  <div class="book__pricing">
+                    <span class="book__price">$ 23.00</span>
+                    <i class="book__icon icon icon--add" data-jam="plus-rectangle-f"></i>
+                  </div>
+                </div>
+              </div>
+
+              <div class="all__book">
+                <img src="img/books/42046112.jpg" alt="" class="book__cover">
+                <div class="book__details">
+                  <div class="book__desc">
+                    <h3 class="book__title">Recursion</h3>
+                    <h3 class="book__author">Blake Crouch</h3>
+                  </div>
+                  <div class="book__rating">
+                    <div class="book__stars">
+                      <i class="book__icon icon icon--star" data-jam="star-f"></i>
+                      <i class="book__icon icon icon--star" data-jam="star-f"></i>
+                      <i class="book__icon icon icon--star" data-jam="star-f"></i>
+                      <i class="book__icon icon icon--star" data-jam="star"></i>
+                      <i class="book__icon icon icon--star" data-jam="star"></i>
+                    </div>
+                    <span class="book__rating-count">456</span>
+                  </div>
+                  <div class="book__pricing">
+                    <span class="book__price">$ 18.00</span>
+                    <i class="book__icon icon icon--add" data-jam="plus-rectangle-f"></i>
+                  </div>
+                </div>
+              </div>
+
+              <div class="all__book">
+                <img src="img/books/42397849.jpg" alt="" class="book__cover">
+                <div class="book__details">
+                  <div class="book__desc">
+                    <h3 class="book__title">Burnout</h3>
+                    <h3 class="book__author">Emily Nagosaki</h3>
+                  </div>
+                  <div class="book__rating">
+                    <div class="book__stars">
+                      <i class="book__icon icon icon--star" data-jam="star-f"></i>
+                      <i class="book__icon icon icon--star" data-jam="star-f"></i>
+                      <i class="book__icon icon icon--star" data-jam="star-f"></i>
+                      <i class="book__icon icon icon--star" data-jam="star"></i>
+                      <i class="book__icon icon icon--star" data-jam="star"></i>
+                    </div>
+                    <span class="book__rating-count">108</span>
+                  </div>
+                  <div class="book__pricing">
+                    <span class="book__price">$ 24.50</span>
+                    <i class="book__icon icon icon--add" data-jam="plus-rectangle-f"></i>
+                  </div>
+                </div>
+              </div>
+
+              <div class="all__book">
+                <img src="img/books/6043946.jpg" alt="" class="book__cover">
+                <div class="book__details">
+                  <div class="book__desc">
+                    <h3 class="book__title">The 50th Law</h3>
+                    <h3 class="book__author">Robert Greene & 50 Cent</h3>
+                  </div>
+                  <div class="book__rating">
+                    <div class="book__stars">
+                      <i class="book__icon icon icon--star" data-jam="star-f"></i>
+                      <i class="book__icon icon icon--star" data-jam="star-f"></i>
+                      <i class="book__icon icon icon--star" data-jam="star-f"></i>
+                      <i class="book__icon icon icon--star" data-jam="star-f"></i>
+                      <i class="book__icon icon icon--star" data-jam="star"></i>
+                    </div>
+                    <span class="book__rating-count">292</span>
+                  </div>
+                  <div class="book__pricing">
+                    <span class="book__price">$ 32.50</span>
+                    <i class="book__icon icon icon--add" data-jam="plus-rectangle-f"></i>
+                  </div>
+                </div>
+              </div>
+
+              <div class="all__book">
+                <img src="img/books/43785830.jpg" alt="" class="book__cover">
+                <div class="book__details">
+                  <div class="book__desc">
+                    <h3 class="book__title">Will My Cat Eat My Eyeballs?</h3>
+                    <h3 class="book__author">Caitlin Doughty</h3>
+                  </div>
+                  <div class="book__rating">
+                    <div class="book__stars">
+                      <i class="book__icon icon icon--star" data-jam="star-f"></i>
+                      <i class="book__icon icon icon--star" data-jam="star-f"></i>
+                      <i class="book__icon icon icon--star" data-jam="star-f"></i>
+                      <i class="book__icon icon icon--star" data-jam="star-f"></i>
+                      <i class="book__icon icon icon--star" data-jam="star"></i>
+                    </div>
+                    <span class="book__rating-count">156</span>
+                  </div>
+                  <div class="book__pricing">
+                    <span class="book__price">$ 34.00</span>
+                    <i class="book__icon icon icon--add" data-jam="plus-rectangle-f"></i>
+                  </div>
+                </div>
+              </div>
+
+              <div class="all__book">
+                <img src="img/books/41721428._SY475_.jpg" alt="" class="book__cover">
+                <div class="book__details">
+                  <div class="book__desc">
+                    <h3 class="book__title">Can't Hurt Me</h3>
+                    <h3 class="book__author">David Goggins</h3>
+                  </div>
+                  <div class="book__rating">
+                    <div class="book__stars">
+                      <i class="book__icon icon icon--star" data-jam="star-f"></i>
+                      <i class="book__icon icon icon--star" data-jam="star-f"></i>
+                      <i class="book__icon icon icon--star" data-jam="star-f"></i>
+                      <i class="book__icon icon icon--star" data-jam="star-f"></i>
+                      <i class="book__icon icon icon--star" data-jam="star-f"></i>
+                    </div>
+                    <span class="book__rating-count">563</span>
+                  </div>
+                  <div class="book__pricing">
+                    <span class="book__price">$ 36.00</span>
+                    <i class="book__icon icon icon--add" data-jam="plus-rectangle-f"></i>
+                  </div>
+                </div>
+              </div>
+
+              <div class="all__book">
+                <img src="img/books/18668059.jpg" alt="" class="book__cover">
+                <div class="book__details">
+                  <div class="book__desc">
+                    <h3 class="book__title">Obstacle Is The Way</h3>
+                    <h3 class="book__author">Ryan Holiday</h3>
+                  </div>
+                  <div class="book__rating">
+                    <div class="book__stars">
+                      <i class="book__icon icon icon--star" data-jam="star-f"></i>
+                      <i class="book__icon icon icon--star" data-jam="star-f"></i>
+                      <i class="book__icon icon icon--star" data-jam="star-f"></i>
+                      <i class="book__icon icon icon--star" data-jam="star-f"></i>
+                      <i class="book__icon icon icon--star" data-jam="star-f"></i>
+                    </div>
+                    <span class="book__rating-count">493</span>
+                  </div>
+                  <div class="book__pricing">
+                    <span class="book__price">$ 18.00</span>
+                    <i class="book__icon icon icon--add" data-jam="plus-rectangle-f"></i>
+                  </div>
+                </div>
+              </div>
+
+              <div class="all__book">
+                <img src="img/books/27220736.jpg" alt="" class="book__cover">
+                <div class="book__details">
+                  <div class="book__desc">
+                    <h3 class="book__title">Shoe Dog</h3>
+                    <h3 class="book__author">Phil Night</h3>
+                  </div>
+                  <div class="book__rating">
+                    <div class="book__stars">
+                      <i class="book__icon icon icon--star" data-jam="star-f"></i>
+                      <i class="book__icon icon icon--star" data-jam="star-f"></i>
+                      <i class="book__icon icon icon--star" data-jam="star-f"></i>
+                      <i class="book__icon icon icon--star" data-jam="star-f"></i>
+                      <i class="book__icon icon icon--star" data-jam="star-f"></i>
+                    </div>
+                    <span class="book__rating-count">793</span>
+                  </div>
+                  <div class="book__pricing">
+                    <span class="book__price">$ 30.50</span>
+                    <i class="book__icon icon icon--add" data-jam="plus-rectangle-f"></i>
+                  </div>
+                </div>
+              </div>
+
+              <div class="all__book">
+                <img src="img/books/43798285.jpg" alt="" class="book__cover">
+                <div class="book__details">
+                  <div class="book__desc">
+                    <h3 class="book__title">Institute</h3>
+                    <h3 class="book__author">Stephen King</h3>
+                  </div>
+                  <div class="book__rating">
+                    <div class="book__stars">
+                      <i class="book__icon icon icon--star" data-jam="star-f"></i>
+                      <i class="book__icon icon icon--star" data-jam="star-f"></i>
+                      <i class="book__icon icon icon--star" data-jam="star-f"></i>
+                      <i class="book__icon icon icon--star" data-jam="star-f"></i>
+                      <i class="book__icon icon icon--star" data-jam="star"></i>
+                    </div>
+                    <span class="book__rating-count">223</span>
+                  </div>
+                  <div class="book__pricing">
+                    <span class="book__price">$ 19.50</span>
+                    <i class="book__icon icon icon--add" data-jam="plus-rectangle-f"></i>
+                  </div>
+                </div>
+              </div>
+
+              <div class="all__book">
+                <img src="img/books/13589182.jpg" alt="" class="book__cover">
+                <div class="book__details">
+                  <div class="book__desc">
+                    <h3 class="book__title">Mastery</h3>
+                    <h3 class="book__author">Robert Greene</h3>
+                  </div>
+                  <div class="book__rating">
+                    <div class="book__stars">
+                      <i class="book__icon icon icon--star" data-jam="star-f"></i>
+                      <i class="book__icon icon icon--star" data-jam="star-f"></i>
+                      <i class="book__icon icon icon--star" data-jam="star-f"></i>
+                      <i class="book__icon icon icon--star" data-jam="star-f"></i>
+                      <i class="book__icon icon icon--star" data-jam="star-f"></i>
+                    </div>
+                    <span class="book__rating-count">562</span>
+                  </div>
+                  <div class="book__pricing">
+                    <span class="book__price">$ 27.50</span>
+                    <i class="book__icon icon icon--add" data-jam="plus-rectangle-f"></i>
+                  </div>
+                </div>
+              </div>
+
+              <div class="all__book">
+                <img src="img/books/43822665._SY475_.jpg" alt="" class="book__cover">
+                <div class="book__details">
+                  <div class="book__desc">
+                    <h3 class="book__title">Embrace Your Weird</h3>
+                    <h3 class="book__author">Felicia Day</h3>
+                  </div>
+                  <div class="book__rating">
+                    <div class="book__stars">
+                      <i class="book__icon icon icon--star" data-jam="star-f"></i>
+                      <i class="book__icon icon icon--star" data-jam="star-f"></i>
+                      <i class="book__icon icon icon--star" data-jam="star-f"></i>
+                      <i class="book__icon icon icon--star" data-jam="star"></i>
+                      <i class="book__icon icon icon--star" data-jam="star"></i>
+                    </div>
+                    <span class="book__rating-count">157</span>
+                  </div>
+                  <div class="book__pricing">
+                    <span class="book__price">$ 14.00</span>
+                    <i class="book__icon icon icon--add" data-jam="plus-rectangle-f"></i>
+                  </div>
+                </div>
+              </div>
+          </section>
+        </section>
+
+        <aside class="aside">
+          <div class="authors">
+            <h2 class="title">Top Authors</h2>
+            <div class="author">
+              <img src="img/author.jpg" alt="" class="author__photo">
+              <h3 class="author__name">Stephen King</h3>
+              <div class="author__purchases">4527 purchases this month</div>
+            </div>
+            <div class="author">
+              <img src="img/author2.png" alt="" class="author__photo">
+              <h3 class="author__name">Jordan Peterson</h3>
+              <div class="author__purchases">2976 purchases this month</div>
+            </div>
+            <div class="author">
+              <img src="img/author3.jpg" alt="" class="author__photo">
+              <h3 class="author__name">Cal Newport</h3>
+              <div class="author__purchases">2471 purchases this month</div>
+            </div>
+            <div class="author">
+              <img src="img/author4.jpg" alt="" class="author__photo">
+              <h3 class="author__name">Matthew Walker</h3>
+              <div class="author__purchases">1226 purchases this month</div>
+            </div>
+          </div>
+
+          <div class="genres">
+            <h2 class="title">Genres</h2>
+            <div class="genres__grid">
+              <div class="bubble selected">Adventure</div>
+              <div class="bubble">Classic</div>
+              <div class="bubble">History</div>
+              <div class="bubble selected">Novel</div>
+              <div class="bubble ">Detective</div>
+              <div class="bubble">Biography</div>
+              <div class="bubble">Fantasy</div>
+              <div class="bubble ">Mystery</div>
+              <div class="bubble">Drama</div>
+              <div class="bubble selected">Philosophy</div>
+              <div class="bubble selected">Psychology</div>
+              <div class="bubble selected">Science</div>
+              <div class="bubble">Fiction</div>
+              <div class="bubble">Horror</div>
+              <div class="bubble">Poetry</div>
+              <div class="bubble selected">Satire</div>
+              <div class="bubble selected">Self Help</div>
+              <div class="bubble">Western</div>
+            </div>
+          </div>
+        </aside>
+      </main>
+
+    </div>
+
+
+    <script src="https://unpkg.com/jam-icons/js/jam.min.js"></script>
+    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+    <script src="js/app.js"></script>
+
+  </body>
+
+</html>
