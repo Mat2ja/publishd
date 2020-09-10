@@ -109,7 +109,7 @@ h3 {
   padding: 2.4rem; }
 
 .title {
-  margin-bottom: 2.4rem; }
+  margin-bottom: 3.2rem; }
 
 .card {
   background: white;
@@ -170,22 +170,25 @@ h3 {
       filter: drop-shadow(0 0 4px rgba(255, 87, 34, 0.25)); }
 
 .recommended {
-  margin-bottom: 4.8rem; }
+  margin-bottom: 6.4rem; }
   .recommended .book-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 1.6rem; }
+    gap: 1.6rem;
+    margin-left: -10%; }
   .recommended__book {
-    height: 20rem;
-    width: 36rem;
+    height: 24rem;
+    width: 38rem;
     border-top-left-radius: 4px;
     border-bottom-left-radius: 4px; }
     .recommended__book .book__details {
       padding: 1.6rem; }
     .recommended__book .book__title {
-      font-size: 2rem; }
+      font-size: 2.2rem; }
     .recommended__book .book__author {
       font-size: 1.4rem; }
+    .recommended__book .book__rating {
+      margin-top: 1em; }
     .recommended__book .book__stars {
       display: flex;
       align-items: center; }
@@ -219,7 +222,7 @@ h3 {
     font-size: 1.4rem; }
 
 .authors {
-  margin-bottom: 4.8rem; }
+  margin-bottom: 6.4rem; }
 
 .author {
   margin-bottom: 1.6rem;
