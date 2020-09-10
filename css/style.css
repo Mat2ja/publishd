@@ -238,7 +238,7 @@ h3 {
   .author__name {
     grid-column: 2; }
   .author__purchases {
-    color: var(--text-2);
+    color: var(--text);
     grid-column: 2; }
 
 .genres__grid {
@@ -248,11 +248,17 @@ h3 {
 
 .genres .bubble {
   border-radius: 18px;
-  border: 3px solid currentColor;
+  color: var(--text);
+  opacity: .75;
+  border: 2px solid currentColor;
   padding: 0.8rem 1.6rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  cursor: pointer; }
+  cursor: pointer;
+  transition: all 200ms; }
+  .genres .bubble:hover {
+    opacity: 1; }
   .genres .bubble.selected {
-    color: var(--primary); }
+    color: var(--primary);
+    opacity: 1; }
