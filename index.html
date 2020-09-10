@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/jam-icons/js/jam.min.js"></script>
 
   </head>
 
@@ -19,8 +20,14 @@
     <div class="app">
       <nav class="nav">
         <div class="nav__search">
-          <i class="nav__icon icon" data-jam="search"></i>
-          <input type="text" class="nav__searchbar" placeholder="Search for book or an author...">
+          <form id="nav-form">
+            <button class="nav__submit">
+              <i class="nav__icon icon" data-jam="search"></i>
+            </button>
+            <input type="text" class="nav__searchbar" placeholder="Search for book or an author...">
+            <ul class="suggestions hide"></ul>
+          </form>
+
         </div>
         <div class="nav__logo">
           <ion-icon name="layers" class="logo--img" size='large'></ion-icon>
@@ -40,8 +47,6 @@
           <section class="recommended">
             <h2 class="title">Recommended</h2>
             <div class="book-grid">
-              
-
               <div class="recommended__book card">
                 <img src="img/books/18007564.jpg" alt="" class="book__cover">
                 <div class="book__details">
@@ -564,6 +569,7 @@
 
     <script src="https://unpkg.com/jam-icons/js/jam.min.js"></script>
     <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.20.0/axios.min.js"></script>
     <script src="js/app.js"></script>
 
   </body>

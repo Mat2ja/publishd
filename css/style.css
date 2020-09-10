@@ -64,7 +64,7 @@ h3 {
     padding: 0.3em 0.6em;
     border: none;
     background: transparent;
-    max-width: 35rem; }
+    max-width: 38rem; }
     .nav__searchbar::placeholder {
       color: var(--text-2); }
   .nav__logo {
@@ -81,6 +81,16 @@ h3 {
     justify-self: end;
     display: flex;
     align-items: center; }
+  .nav__submit {
+    display: block;
+    border: none;
+    background: none; }
+
+#nav-form {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  position: relative; }
 
 .user {
   margin-left: 4.8rem;
@@ -238,7 +248,7 @@ h3 {
   .author__name {
     grid-column: 2; }
   .author__purchases {
-    color: var(--text);
+    color: var(--text-2);
     grid-column: 2; }
 
 .genres__grid {
@@ -249,7 +259,7 @@ h3 {
 .genres .bubble {
   border-radius: 18px;
   color: var(--text);
-  opacity: .75;
+  opacity: 0.75;
   border: 2px solid currentColor;
   padding: 0.8rem 1.6rem;
   display: flex;
@@ -262,3 +272,28 @@ h3 {
   .genres .bubble.selected {
     color: var(--primary);
     opacity: 1; }
+
+.suggestions {
+  width: 400px;
+  height: 300px;
+  position: absolute;
+  background: white;
+  border: 2px solid var(--text);
+  top: 100%;
+  list-style: none;
+  padding: 1.6rem; }
+
+.suggestion {
+  font-size: 1.8rem;
+  margin-bottom: 0.8rem;
+  display: flex;
+  align-items: center;
+  z-index: 9999999; }
+  .suggestion img {
+    max-height: 100%;
+    max-width: 5rem;
+    margin-right: 1.6rem;
+    display: block; }
+
+.hide {
+  display: none; }
