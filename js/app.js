@@ -28,7 +28,9 @@ function addBookElement(bookData) {
 }
 function addSuggestion(bookData) {
     // console.log(bookData);
-    form.querySelector('.suggestions').innerHTML += createSuggestion(bookData);
+    // form.querySelector('.suggestions').innerHTML += createSuggestion(bookData);
+    document.querySelector('.all .book-grid').innerHTML += createBookElement(bookData);
+
 }
 
 
@@ -48,7 +50,8 @@ function createSuggestion(bookData) {
 
 searchbar.addEventListener('input', async () => {
     const url = `https://www.googleapis.com/books/v1/volumes?q=${searchbar.value}`;
-    form.querySelector('.suggestions').innerHTML = '';
+    // form.querySelector('.suggestions').innerHTML = '';
+    document.querySelector('.all .book-grid').innerHTML = '';
     try {
         // perform search
         let response = await axios.get(url);
