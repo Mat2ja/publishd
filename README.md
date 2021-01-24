@@ -1,5 +1,7 @@
 # Publishd
 
+All by me
+
 <img src='img/screenshot.png'>
 
 ---
