@@ -1,6 +1,8 @@
 # Publishd
 
-All by me
+Design concept from Dribble
+
+Built using Sass
 
 <img src='img/screenshot.png'>
 
